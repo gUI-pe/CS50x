@@ -1,0 +1,13 @@
+sort1 uses: Bubble Sort
+sorted: 0.661 - 0.795s
+reversed: 6.000s
+How do you know?: Great spread of the duration of the sorting between an already sorted file and a reversed one;
+
+sort2 uses: Merge Sort
+sorted: 0.660 - 0.825s
+reversed: 0.700 - 0.975
+How do you know?: It has a consistent duration and it is way faster than sort3, therefore it should have a lower O and Ω than sort3;
+
+sort3 uses: Selection Sort
+How do you know?: That's assumable because it takes an awfully long time, when comparing to the others algorithms, to sort an already sorted .txt and it has similar solving times for different files with the same number of words;
+

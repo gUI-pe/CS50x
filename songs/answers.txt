@@ -1,0 +1,5 @@
+I would characterize his audio aura as being very intense, due to it's high energy avg, having a regular mood, due to it's valence avg being very close to the middle of the scale, and a lover of dance, due to it's danceability avg being pretty high.
+
+The way i calculated this listener's aura might be innacuratte because the amount of time he spent listening to the songs is not available.
+
+I'd propose counting the time the user has spent on every genre and song from his top 100, and then making a weighted average to have certain songs values to worth more or less on the aftermath.
