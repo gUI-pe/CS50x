@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for stock in stocks %}
+        <tr>
+            <td> {{ stock["symbol"] }} </td>
+            <td> {{ stock["name"] }} </td>
+            <td> {{ stock["allshares"] }} </td>
+            <td> {{ usd(stock["price"]) }} </td>
+            <td> {{ usd(stock["allshares"] * stock["price"]) }} </td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td>CASH</td>
+            <td colsapn="3"></td>
+            <td>{{cash}}</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4"></td>
+            <td>
+                {{ usd(grandtotal) }}
+            </td>
+        </tr>
+        <form action="/addmoney" method="post">
+            <div class="mb-3">
+                <input class="form-control mx-auto w-auto" id="addmoney" name="addmoney" placeholder="want more money?" type="number">
+            </div>
+            <button class="btn btn-primary" type="submit">$$$</button>
+        </form>
+    </tfoot>
+</table>
+{% endblock %}

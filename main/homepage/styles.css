@@ -1,0 +1,68 @@
+.main {
+    background-image: url("gaming.jpg");
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.3;
+    font-size:25px;
+}
+
+.bun{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height:2;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border-radius: 9px;
+    height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fortnite{
+    color: purple;
+    background-color: black;
+    border-radius: 25px;
+    height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#valorant{
+    color: red;
+    background-color: black;
+    border-radius: 25px;
+    height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bo3{
+    color: orange;
+    background-color: black;
+    border-radius: 25px;
+    height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.margin{
+    margin:30px;
+}
+
+.val{
+    background-image: url("val.jpg");
+}
+
+.for{
+    background-image: url("for.jpg");
+}
+
+.ops3
+{
+    background-image: url("ops3.jpg");
+}
